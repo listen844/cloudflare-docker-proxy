@@ -17,7 +17,7 @@ const routes = {
   ["ecr." + gxml.free.hr]: "https://public.ecr.aws",
 
   // staging
-  ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
+  ["docker-staging." + gxml.free.hr]: dockerHub,
 };
 
 function routeByHosts(host) {
